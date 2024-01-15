@@ -40,7 +40,7 @@ def solve_part_two() -> int:
     for line in calibrations:
         nums = []
         for char in range(len(line)):
-            if (line[char].isdigit()):
+            if line[char].isdigit():
                 nums.append(line[char])
             else:
                 for number in numbers:
