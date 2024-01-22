@@ -34,7 +34,7 @@ async def return_part_one_output():
 
 
 @router.get("/day3/part2")
-async def return_part_one_output():
+async def return_part_two_output():
     return [
         {"result": solve_part_two()}
     ]
